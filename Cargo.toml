@@ -20,7 +20,7 @@ lambda_runtime = "0.9.1"
 tokio = { version = "1", features = ["macros"] }
 tracing = { version = "0.1", features = ["log"] }
 tracing-subscriber = { version = "0.3", default-features = false, features = ["env-filter", "fmt"] }
-mica = { git = "https://github.com/mfauzaan/mica" }
+mica = { git = "https://github.com/mfauzaan/mica", version = "0.0.1" }
 aws-sdk-s3 = "1.15.0"
 bytes = "1.5.0"
 thiserror = "1.0.57"
